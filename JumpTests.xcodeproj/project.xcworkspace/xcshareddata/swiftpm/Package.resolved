@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "jump-swiftui-coordinator",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nandzz/Jump-SwiftUI-Coordinator",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2d739174577a25919926448c3d4fea31a23fc981"
+      }
+    }
+  ],
+  "version" : 2
+}

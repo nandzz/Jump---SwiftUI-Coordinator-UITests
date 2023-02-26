@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct JumpTestsApp: App {
+    
+    let coordinator = JumpTestsCoordinator()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            coordinator.load(with: .viewA(), navigation: true)
         }
     }
 }
